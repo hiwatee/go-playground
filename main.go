@@ -7,6 +7,8 @@ func main() {
 	log.Println(CreateDividedGeo(0, 100, 0, 100, n))
 }
 
+// ------ 長方形座標をNxNで分割する -------
+
 type Range struct {
 	Start float64
 	End   float64
